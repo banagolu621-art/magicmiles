@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Magic Miles AI" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Magic Miles AI — Intelligent Restaurant Assistant" },
+      { name: "twitter:title", content: "Magic Miles AI — Intelligent Restaurant Assistant" },
+      { name: "description", content: "An AI-powered restaurant assistant built with n8n, GPT-5, Google Sheets and Pinecone RAG. Takes orders, manages inventory and answers customer FAQs in real time." },
+      { property: "og:description", content: "An AI-powered restaurant assistant built with n8n, GPT-5, Google Sheets and Pinecone RAG. Takes orders, manages inventory and answers customer FAQs in real time." },
+      { name: "twitter:description", content: "An AI-powered restaurant assistant built with n8n, GPT-5, Google Sheets and Pinecone RAG. Takes orders, manages inventory and answers customer FAQs in real time." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/25433eb3-52c9-4c20-a171-1f540017fae1/id-preview-ec69e60c--4ede87e9-d6ca-4d6b-8c60-c282f52edec7.lovable.app-1783146670899.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/25433eb3-52c9-4c20-a171-1f540017fae1/id-preview-ec69e60c--4ede87e9-d6ca-4d6b-8c60-c282f52edec7.lovable.app-1783146670899.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
